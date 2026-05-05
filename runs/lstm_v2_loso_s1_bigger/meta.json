@@ -1,0 +1,8 @@
+{
+  "best_val_bacc": 0.05074937654560656,
+  "test_acc": 0.023839086168363548,
+  "test_bacc": 0.02531457209756706,
+  "K": 38,
+  "data": "data\\folds\\loso_s1_bigger.npz",
+  "outdir": "runs\\lstm_v2_loso_s1_bigger"
+}

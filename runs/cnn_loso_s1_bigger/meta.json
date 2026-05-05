@@ -1,0 +1,7 @@
+{
+  "data": "data\\folds\\loso_s1_bigger.npz",
+  "K": 38,
+  "best_val_bacc": 0.16654794825260835,
+  "test_acc": 0.03153712441023094,
+  "test_bacc": 0.030208484000637505
+}

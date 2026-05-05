@@ -1,0 +1,28 @@
+{
+  "subject": "s1",
+  "train_reps": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_reps": [
+    5,
+    6
+  ],
+  "win_ms": 150,
+  "overlap": 0.5,
+  "train_per_class": 300,
+  "test_per_class": 150,
+  "X_train_shape": [
+    9688,
+    12,
+    300
+  ],
+  "X_test_shape": [
+    4690,
+    12,
+    300
+  ],
+  "classes": 38
+}

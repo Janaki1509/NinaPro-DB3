@@ -1,0 +1,3 @@
+subject=s1
+windows_non_rest=15551
+fraction_inside_single_gesture_interval=0.985338563436435

@@ -1,0 +1,8 @@
+{
+  "best_val_bacc": 0.030816239758537797,
+  "test_acc": 0.030295505338962008,
+  "test_bacc": 0.029052649139556748,
+  "K": 38,
+  "data": ".\\data\\folds\\loso_s1_bigger.npz",
+  "outdir": "runs\\gpu_check_lstm"
+}

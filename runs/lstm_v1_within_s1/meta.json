@@ -1,0 +1,7 @@
+{
+  "data": "data\\folds\\within_s1_rep.npz",
+  "K": 38,
+  "best_val_bacc": 0.22739124897577734,
+  "test_acc": 0.2002132196162047,
+  "test_bacc": 0.2229617086558745
+}
