@@ -1,4 +1,4 @@
-readme_content = """# NinaPro DB3: Reproducible Cross-Subject EMG Gesture Classification
+"""# NinaPro DB3: Reproducible Cross-Subject EMG Gesture Classification
 
 Reproducible benchmark for cross-subject surface EMG gesture recognition on NinaPro DB3, with leave-one-subject-out evaluation, domain shift analysis, confidence calibration, and comparison of multiple baseline and neural models.
 
