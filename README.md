@@ -179,4 +179,3 @@ If you use this repository, please cite the capstone paper:
 
 with open('data/README.md', 'w') as f:
     f.write("# Data Instructions\n\nThis repository does not include the raw NinaPro DB3 dataset.\n\n## Dataset\n- **Dataset name:** NinaPro DB3\n- **Description:** Surface EMG recordings from transradial amputee subjects\n- **Primary use in this project:** Cross-subject gesture classification with leave-one-subject-out evaluation\n\n## Where to get the data\nDownload NinaPro DB3 from the official NinaPro project page and follow its access instructions.\n\n## Local folder setup\nPlace the dataset in the local directory structure expected by the scripts in this repository.\n\n## Notes\n- Do not commit the raw dataset to GitHub.\n- Large binary files such as `.mat` and `.npz` files are intentionally excluded from version control.\n- The repository contains code, job scripts, results, and documentation needed to reproduce the experiments.")
-"""
