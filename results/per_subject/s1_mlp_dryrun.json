@@ -1,0 +1,22 @@
+{
+  "method": "mlp_softmax",
+  "test_subject": "s1",
+  "N_train": 510,
+  "N_test": 510,
+  "K": 17,
+  "win_ms": 150,
+  "overlap": 0.5,
+  "strict_purity": true,
+  "train_per_class": 30,
+  "test_per_class": 30,
+  "std_ratio": 0.15935024619102478,
+  "acc": 0.0392156862745098,
+  "balanced_acc": 0.03921568627450981,
+  "macro_f1": 0.03689123019941906,
+  "epochs": 10,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "hidden_dim": 128,
+  "dropout": 0.2
+}
