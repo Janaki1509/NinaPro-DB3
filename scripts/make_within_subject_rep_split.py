@@ -117,4 +117,8 @@ def main():
     print("Train:", Xtr.shape, "Test:", Xte.shape, "Classes:", len(np.unique(ytr)))
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682

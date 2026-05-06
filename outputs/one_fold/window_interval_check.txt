@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 subject=s1
 windows_non_rest=15551
 fraction_inside_single_gesture_interval=0.985338563436435
+=======
+subject=s1
+windows_non_rest=15551
+fraction_inside_single_gesture_interval=0.985338563436435
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682

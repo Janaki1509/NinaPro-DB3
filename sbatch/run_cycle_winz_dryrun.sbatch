@@ -25,7 +25,15 @@ python $PROJ/scripts/run_cycle_winz_loso.py \
     --test s1 \
     --out_json   $OUT/s1_cycle_winz.json \
     --latent_npz $OUT/s1_latents.npz \
+<<<<<<< HEAD
     --epochs 20 \
     --cpus 4
 
 echo "=== Done. Check: $OUT/s1_cycle_winz.json ==="
+=======
+    --epochs 100 \
+    --cpus 4
+
+echo "=== Done. Check: $OUT/s1_cycle_winz.json ==="
+
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682

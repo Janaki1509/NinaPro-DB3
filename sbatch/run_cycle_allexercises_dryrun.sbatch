@@ -5,7 +5,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
+<<<<<<< HEAD
 #SBATCH --time=01:00:00
+=======
+#SBATCH --time=02:00:00
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
 #SBATCH --output=/mnt/home/chandraj/ninapro_db3/logs/cyc_all_dry_%j.out
 #SBATCH --error=/mnt/home/chandraj/ninapro_db3/logs/cyc_all_dry_%j.err
 
@@ -23,7 +27,11 @@ python $PROJ/scripts/run_cycle_allexercises_loso.py \
     --test s1 \
     --out_json   $OUT/s1_cycle_all.json \
     --latent_npz $OUT/s1_latents.npz \
+<<<<<<< HEAD
     --epochs 20 \
+=======
+    --epochs 100 \
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
     --lambda_recon 1.0 \
     --lambda_cycle_max 1.0 \
     --cpus 4

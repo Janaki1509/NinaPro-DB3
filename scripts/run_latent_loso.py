@@ -89,7 +89,11 @@ def _search_for_key(obj, target_keys, depth=0, max_depth=4):
 
 
 def load_subject_arrays(subject_dir: Path):
+<<<<<<< HEAD
     mats = sorted(subject_dir.glob("*.mat"))
+=======
+    mats = sorted(subject_dir.rglob("*.mat*"))
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
     if not mats:
         raise FileNotFoundError(f"No .mat files in {subject_dir}")
     mat_path = mats[0]

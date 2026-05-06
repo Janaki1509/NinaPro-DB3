@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HPC CHECKLIST (NinaPro DB3 MiniROCKET LOSO)
 
 PORT/LOGIN NODE: allowed actions only
@@ -29,3 +30,36 @@ python scripts/merge_per_subject_json_to_csv.py --in_dir results/per_subject --o
 
 CLEANUP:
 rm -rf $SCRATCH/ninapro/<jobid>_*
+=======
+HPC CHECKLIST (NinaPro DB3 MiniROCKET LOSO)
+
+PORT/LOGIN NODE: allowed actions only
+- cd ~/ninapro_bench
+- source ~/venvs/ninapro/bin/activate
+- pip install -r requirements_hpc.txt (one-time)
+- sbatch sbatch/run_minirocket_dryrun.sbatch
+- sbatch sbatch/run_minirocket_loso_array.sbatch
+- squeue -u $USER ; sacct -j <jobid>
+- tail -f logs/<job>.out
+NO training/preprocessing loops run directly on login node.
+
+COMPUTE NODE: all work happens via sbatch
+
+DRY RUN (debug/short):
+- uses s1
+- small caps (train_per_class=30, test_per_class=30)
+- fewer kernels (2000)
+- writes results/per_subject/s1_dryrun.json
+
+FULL RUN (cpu):
+- array over s1..s11
+- caps: train_per_class=120, test_per_class=80
+- kernels: 10000
+- writes results/per_subject/sX.json
+
+MERGE:
+python scripts/merge_per_subject_json_to_csv.py --in_dir results/per_subject --out_csv results/loso_minirocket.csv
+
+CLEANUP:
+rm -rf $SCRATCH/ninapro/<jobid>_*
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682

@@ -1,0 +1,28 @@
+{
+  "test_subject": "s1",
+  "train_subjects": [
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11"
+  ],
+  "N_train": 11182,
+  "N_test": 1140,
+  "K": 38,
+  "win_ms": 150,
+  "overlap": 0.5,
+  "strict_purity": true,
+  "train_per_class": 30,
+  "test_per_class": 30,
+  "num_kernels": 2000,
+  "std_ratio": 0.19030900299549103,
+  "acc": 0.035964912280701755,
+  "balanced_acc": 0.035964912280701755,
+  "macro_f1": 0.030604620409449796
+}

@@ -1,0 +1,22 @@
+{
+  "method": "mlp_softmax",
+  "test_subject": "s3",
+  "N_train": 2040,
+  "N_test": 1360,
+  "K": 17,
+  "win_ms": 150,
+  "overlap": 0.5,
+  "strict_purity": true,
+  "train_per_class": 120,
+  "test_per_class": 80,
+  "std_ratio": 17.40825843811035,
+  "acc": 0.061764705882352944,
+  "balanced_acc": 0.06176470588235293,
+  "macro_f1": 0.058504676760209776,
+  "epochs": 20,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "hidden_dim": 128,
+  "dropout": 0.2
+}

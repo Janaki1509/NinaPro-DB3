@@ -25,7 +25,11 @@ python $PROJ/scripts/run_cycle_autoencoder_loso.py \
     --test s1 \
     --out_json   $OUT/s1_cycle.json \
     --latent_npz $OUT/s1_latents.npz \
+<<<<<<< HEAD
     --epochs 20 \
+=======
+    --epochs 100 \
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
     --lambda_recon 1.0 \
     --lambda_cycle 0.5 \
     --cpus 4

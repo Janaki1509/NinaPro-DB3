@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 numpy
 scipy
 scikit-learn
 sktime
+=======
+numpy
+scipy
+scikit-learn
+sktime
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
 pandas

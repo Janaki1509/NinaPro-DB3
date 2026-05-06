@@ -28,6 +28,10 @@ python $PROJ/scripts/run_conditional_latent_loso.py \
     --out_json   $OUT/s${S}_cond_latent.json \
     --latent_npz $OUT/s${S}_latents.npz \
     --epochs 50 \
+<<<<<<< HEAD
+=======
+    --hidden_dim 256 \
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
     --cpus 4
 
 echo "=== s${S} done ==="

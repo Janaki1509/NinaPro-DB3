@@ -5,7 +5,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=48G
+<<<<<<< HEAD
 #SBATCH --time=04:00:00
+=======
+#SBATCH --time=06:00:00
+>>>>>>> 9bbfa3b24bb49262e519b5672b0b6636e2cc4682
 #SBATCH --array=1-11
 #SBATCH --output=/mnt/home/chandraj/ninapro_db3/logs/cyc_all_s%a_%j.out
 #SBATCH --error=/mnt/home/chandraj/ninapro_db3/logs/cyc_all_s%a_%j.err
