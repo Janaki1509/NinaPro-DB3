@@ -24,6 +24,7 @@ Published EMG results often look strong under within-subject testing, but perfor
 ## Dataset
 
 - **Dataset:** NinaPro DB3
+- **Dataset link:** https://ninapro.hevs.ch
 - **Subjects:** 11 transradial amputees
 - **Signals:** 12 sEMG channels
 - **Primary task:** Exercise 1, 17 gesture classes
